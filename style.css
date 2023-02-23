@@ -1,0 +1,32 @@
+html{
+    display: flex;
+    justify-content: center;
+}
+body{
+    width: 90vmin;
+    padding: 10px 5px 50px 5px;
+}
+
+body > header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: fit-content;
+}
+body > header > img{
+    margin: 20px 0;
+    display: block;
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+body > header > section{
+    display: none;
+    position: absolute;
+}
+nav > img {
+    width: 3rem;
+}
+
