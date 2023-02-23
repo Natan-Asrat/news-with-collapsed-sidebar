@@ -1,6 +1,12 @@
+@font-face {
+    font-family: myfont;
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
 html{
     display: flex;
     justify-content: center;
+    font-family: myfont;
+
 }
 body{
     width: 90vmin;
@@ -29,4 +35,33 @@ body > header > section{
 nav > img {
     width: 3rem;
 }
+main > section{
+    background-color: hsl(240, 100%, 5%);
+    padding: 3px 20px;
+    margin-bottom: 30px;
+}
 
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    color: hsl(36, 100%, 99%);
+    font-size: 1.5rem;
+}
+h4{
+    color: hsl(233, 8%, 79%);
+    font-size: 1.1rem;
+
+}
+#new{
+   color: hsl(35, 77%, 62%); 
+}
+.new-items > section{
+    border-bottom: 2px solid hsl(233, 8%, 79%);
+}
+#last-item{
+    border: none;
+}
