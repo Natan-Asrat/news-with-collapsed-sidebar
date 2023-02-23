@@ -4,17 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | News homepage</title>
-
+  <script defer src="/script.js"></script>
 </head>
 <body>
   <header>
-    
-    <section>
+    <section id="side">
       <header>
-        <img src="/assets/images/icon-menu-close.svg" alt="">
+        <img src="/assets/images/icon-menu-close.svg" alt="" onclick="hidenav()">
       </header>
       <section>
         <h5>Home</h5>
@@ -26,7 +24,7 @@
     </section>
     <nav>
       <img src="/assets/images/logo.svg" alt="">
-      <img src="/assets/images/icon-menu.svg" alt="">
+      <img src="/assets/images/icon-menu.svg" alt="" onclick="shownav()">
     </nav>
     <img src="/assets/images/image-web-3-mobile.jpg" alt="">
   </header>
